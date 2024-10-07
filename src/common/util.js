@@ -62,6 +62,9 @@ export function getNumInRange(num, min, max) {
 }
 
 export function none() {
+
+  console.log("util.js.none")
+
 }
 
 export function showTip(title= '', duration = 1500) {

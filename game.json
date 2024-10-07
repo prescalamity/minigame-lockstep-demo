@@ -1,9 +1,13 @@
 {
     "deviceOrientation": "landscape",
     "lockStepOptions" : {
+        "gameTick1":"33毫秒发送一次帧数据",
         "gameTick": 33,
+        "heartBeatTick1": "每2秒心跳一次",
         "heartBeatTick": 2000,
+        "offlineTimeLength1": "10秒没有心跳就表示玩家离线",
         "offlineTimeLength": 10000,
+        "UDPReliabilityStrategy1":"帧冗余策略,表示每次下发帧时总共下发的帧数量",
         "UDPReliabilityStrategy": 3
     }
 }

@@ -14,6 +14,9 @@ export default class Home extends PIXI.Container {
     }
 
     appendOpBtn() {
+
+        console.log("home.js.appendOpBtn ---------------");
+        //printStackTrace() 
         this.addChild(
             createText({
                 str    : '小游戏帧同步功能示例',
@@ -34,7 +37,7 @@ export default class Home extends PIXI.Container {
                         showCancel: false,
                         confirmColor: '#02BB00',
                     });
-
+                    console.log("home.js.appendOpBtn.addChild.createBtn，我点了进入房间按钮");
                     this.gameServer.createMatchRoom();
                 }
             }),

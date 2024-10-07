@@ -52,6 +52,9 @@ class Login {
         button.onTap((res) => {
             if ( res.errMsg.indexOf(':ok') > -1 ) {
                 button.destroy();
+
+                console.log("login.js.button.onTap，你点击了开始按钮", res);
+
                 try {
                     this.userInfo = JSON.parse(res.rawData);
                     databus.userInfo = this.userInfo;

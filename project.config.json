@@ -37,22 +37,17 @@
   },
   "compileType": "game",
   "libVersion": "2.19.0",
-  "appid": "wx4f4a4549a1069d03",
+  "appid": "wx1c01b87dd5c0288c",
   "projectname": "aircraft-war",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
-  "condition": {
-    "search": {
-      "list": []
-    },
-    "conversation": {
-      "list": []
-    },
-    "plugin": {
-      "list": []
-    },
-    "miniprogram": {
-      "list": []
-    }
+  "condition": {},
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
   }
 }

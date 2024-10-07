@@ -186,8 +186,20 @@ export default class Room extends PIXI.Container {
         this.gameServer.event.off('onRoomInfoChange');
     }
 
+
+    // printStackTrace() {
+    //   // 新建一个Error对象
+    //   const error = new Error();
+    //   // 获取堆栈信息
+    //   const stack = error.stack;
+    //   // 打印堆栈信息
+    //   console.error(stack);
+    // }
+
+
     onRoomInfoChange(roomInfo) {
-        console.log(roomInfo);
+        //printStackTrace() 
+        console.log("room.js.onRoomInfoChange", roomInfo);
         this.handleRoomInfo({ data: { roomInfo } });
     }
 

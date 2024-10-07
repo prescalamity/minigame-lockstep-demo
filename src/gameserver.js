@@ -375,7 +375,9 @@ class GameServer {
         databus.matchPattern = true;
 
         this.event.emit("createRoom");
-        
+
+        console.log("GameServer.js.createMatchRoom");
+
         this.event.emit("onRoomInfoChange", {
             memberList: [
                 { headimg: avatarUrl, nickname: nickName },

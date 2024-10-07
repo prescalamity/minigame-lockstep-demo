@@ -44,6 +44,10 @@ export default class App extends PIXI.Application {
         let scene = new Scene();
         scene.name = 'scene';
         scene.sceneName = Scene.name;
+
+        //printStackTrace() 
+        console.log("index.js.runScene");
+
         scene.launch(gameServer);
         this.stage.addChild(scene);
 
